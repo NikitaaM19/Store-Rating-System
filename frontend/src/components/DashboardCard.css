@@ -1,0 +1,52 @@
+.dc-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 18px 20px;
+
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.dc-card:hover {
+  transform: translateY(-3px);
+}
+
+.dc-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 42px;
+  height: 42px;
+
+  border-radius: 10px;
+
+  background: #eef2ff;
+  color: #4f46e5;
+
+  font-size: 18px;
+}
+
+
+
+.dc-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.dc-title {
+  font-size: 13px;
+  color: #6b7280;
+  margin: 0;
+}
+
+.dc-value {
+  font-size: 22px;
+  font-weight: 600;
+  color: #111827;
+  margin: 2px 0 0 0;
+}

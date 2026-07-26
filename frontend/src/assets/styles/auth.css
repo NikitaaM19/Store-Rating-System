@@ -1,0 +1,106 @@
+body{
+    background:linear-gradient(135deg,#EEF4FF,#FFFFFF);
+    font-family:'Segoe UI',sans-serif;
+}
+
+.auth-container{
+    min-height:100vh;
+}
+
+.auth-card{
+
+    border:none;
+
+    border-radius:25px;
+
+    overflow:hidden;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.08);
+
+}
+
+.left-panel{
+
+    background:linear-gradient(135deg,#2563EB,#4F46E5);
+
+    color:white;
+
+    padding:60px;
+
+}
+
+.left-panel h1{
+
+    font-size:38px;
+
+    font-weight:700;
+
+}
+
+.left-panel p{
+
+    opacity:.9;
+
+    margin-top:20px;
+
+    line-height:1.8;
+
+}
+
+.right-panel{
+
+    padding:50px;
+
+}
+
+.form-control{
+
+    height:52px;
+
+    border-radius:12px;
+
+}
+
+.btn-login{
+
+    background:#2563EB;
+
+    color:white;
+
+    border-radius:12px;
+
+    height:50px;
+
+}
+
+.btn-login:hover{
+
+    background:#1D4ED8;
+
+    color:white;
+
+}
+
+.logo-circle{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:50%;
+
+    background:white;
+
+    color:#2563EB;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:32px;
+
+    margin-bottom:30px;
+
+}

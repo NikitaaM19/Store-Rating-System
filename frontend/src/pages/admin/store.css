@@ -1,0 +1,174 @@
+body {
+    background: #111827; /* 🔥 main dark */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #e5e7eb;
+}
+
+.container {
+    padding: 30px;
+}
+.card {
+    background: #1f2937; /* slightly lighter */
+    border: none;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+}
+
+.card-body {
+    background: transparent;
+}
+
+.table {
+    margin: 0;
+    color: #e5e7eb;
+}
+
+
+.table thead th {
+    background: #374151;
+    color: #f9fafb;
+    font-weight: 600;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #4b5563;
+}
+
+
+.table tbody td {
+    text-align: center;
+    padding: 14px;
+    border-top: 1px solid #374151;
+}
+
+
+.table tbody tr {
+    transition: 0.2s;
+}
+
+.table tbody tr:hover {
+    background: #1f2937;
+}
+
+.table tbody tr:nth-child(even) {
+    background: #1a2233;
+}
+.btn {
+    border-radius: 8px;
+    transition: .25s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn-primary {
+    background: #4f46e5; /* subtle indigo */
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #4338ca;
+}
+
+.btn-info {
+    background: #0ea5e9;
+    border: none;
+    color: #fff;
+}
+
+
+.btn-warning {
+    background: #f59e0b;
+    border: none;
+    color: #000;
+}
+
+.form-control,
+.form-select {
+    background: #1f2937;
+    color: #e5e7eb;
+    border: 1px solid #374151;
+    border-radius: 10px;
+    min-height: 45px;
+}
+
+.form-control::placeholder {
+    color: #9ca3af;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 0.15rem rgba(79,70,229,.25);
+}
+
+.badge {
+    font-size: 12px;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.pagination {
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.page-item .page-link {
+    background: #1f2937;
+    border: 1px solid #374151;
+    color: #e5e7eb;
+    margin: 0 4px;
+    border-radius: 8px;
+}
+
+.page-item .page-link:hover {
+    background: #374151;
+}
+
+.page-item.active .page-link {
+    background: #4f46e5;
+    border-color: #4f46e5;
+    color: #fff;
+}
+
+.modal {
+    display: block !important;
+    backdrop-filter: blur(6px);
+}
+
+.modal-content {
+    background: #1f2937;
+    color: #e5e7eb;
+    border-radius: 16px;
+}
+
+.modal-header {
+    background: #374151;
+    color: #fff;
+}
+
+.btn-close {
+    filter: invert(1);
+}
+
+.empty {
+    color: #9ca3af;
+}
+
+.loading {
+    color: #d1d5db;
+}
+
+
+@media(max-width:768px){
+
+    .container{
+        padding:15px;
+    }
+
+    .table{
+        font-size:13px;
+    }
+
+}

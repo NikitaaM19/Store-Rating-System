@@ -1,0 +1,28 @@
+body{
+    margin:0;
+    padding:0;
+    background:#f4f7fb;
+    font-family:'Segoe UI',sans-serif;
+}
+
+a{
+    text-decoration:none;
+}
+
+.card{
+    border:none;
+    border-radius:18px;
+    box-shadow:0 5px 18px rgba(0,0,0,.08);
+}
+
+.btn-primary{
+    border-radius:12px;
+}
+
+.form-control{
+    border-radius:12px;
+}
+
+.table{
+    background:white;
+}
