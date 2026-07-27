@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
 import Sidebar from "../../components/Sidebar";
-import Navbar from "../../components/Navbar";
 
 import API from "../../services/api";
 
@@ -43,7 +42,7 @@ function Dashboard() {
 
       <div className="dashboard-main">
 
-        <Navbar />
+      
 
         <div className="dashboard-container">
 
